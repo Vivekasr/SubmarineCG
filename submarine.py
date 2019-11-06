@@ -6,11 +6,11 @@ subOut.speed(0)
 def submarineOutline():
 
     subOut.penup()
-    subOut.setpos(150,-100)
-    subOut.fillcolor("#fafafa")
+    subOut.setpos(120,-100)
+    subOut.fillcolor("#C9C9C9")
     subOut.begin_fill()
     subOut.pendown()
-    subOut.pencolor("black")
+    subOut.pencolor("#C7C7C7")
     subOut.circle(80,180) #subCockpit
     subOut.forward(30)    #sublength = 50+30
     subOut.right(180)
